@@ -16,6 +16,12 @@ first you will neeed to include the following fields to your .env
 ```
 Then you can start enjoying this awesome SDK by :
 
+first importing the module:
+```javascript
+const { LibLabSDK } = require('liblabsdk');
+```
+and then 
+
 ```javascript
 const props = {
     token: process.env.API_TOKEN,

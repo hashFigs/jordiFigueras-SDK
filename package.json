@@ -11,6 +11,7 @@
   "dependencies": {
     "axios": "^1.2.2",
     "chalk": "4.1.2",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "liblabsdk": "^1.0.0"
   }
 }

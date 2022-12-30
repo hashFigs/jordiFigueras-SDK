@@ -79,6 +79,15 @@ has-flag@^4.0.0:
   resolved "https://registry.yarnpkg.com/has-flag/-/has-flag-4.0.0.tgz#944771fd9c81c81265c4d6941860da06bb59479b"
   integrity sha512-EykJT/Q1KjTWctppgIAgfSO0tKVuZUjhgMr17kqTumMl6Afv3EISleU7qZUzoXDFTAHTDC4NOoG/ZxU3EvlMPQ==
 
+liblabsdk@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/liblabsdk/-/liblabsdk-1.0.0.tgz#49ed9ac15721b2c87d1923660a5564e16a181a9d"
+  integrity sha512-jfRoR/pl18UHNWO0pAudmH4PXWQCKSljztU++oedIMmQx61htdyqt0hNkVz+f0xzc5Qa/AT0hahgwXbpUU6iGQ==
+  dependencies:
+    axios "^1.2.2"
+    chalk "4.1.2"
+    dotenv "^16.0.3"
+
 mime-db@1.52.0:
   version "1.52.0"
   resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.52.0.tgz#bbabcdc02859f4987301c856e3387ce5ec43bf70"

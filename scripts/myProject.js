@@ -1,10 +1,10 @@
-const  { LibLabSDK }  = require('../src/index.js');
+const { LibLabSDK } = require('liblabsdk');
 require('dotenv').config();
 
  async function main() {
     
     const props = {
-        token: 'HleU0mrH4Ayy-fvXSvJ3',
+        token: process.env.API_TOKEN,
       };
     const urlApi = process.env.LibLabSDK_API;
 

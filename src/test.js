@@ -17,7 +17,7 @@ class Test {
       let result,
         config = {};
       // Setup connection to api.
-      const urlApi = process.env.LibLabSDK_API;
+      const urlApi = process.env.LIB_LAB_SDK_API;
       libLabSDK = new LibLabSDK(urlApi, props);
   
       /*

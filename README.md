@@ -9,23 +9,28 @@ or
 yarn add liblabsdk
 ```
 ## How to use 
-
-Please see a full example of how to use this SDK at scripts/myProject.js
+first you will neeed to include the following fields to your .env
+ ```javascript
+ API_TOKEN="your api key"
+ LIB_LAB_SDK_API=https://the-one-api.dev/
+```
+Then you can start enjoying this awesome SDK by :
 
 ```javascript
 const props = {
-        token: process.env.API_TOKEN,
-      };
-    const urlApi = process.env.LibLabSDK_API;
+    token: process.env.API_TOKEN,
+    };
+const urlApi = process.env.LIB_LAB_SDK_API;
 
-    let libLabSDK = new LibLabSDK(urlApi, props);
+let libLabSDK = new LibLabSDK(urlApi, props);
 
-    let result = await libLabSDK.getMovies();
+let result = await libLabSDK.getMovies();
 
 ```
+For a full example, please check scripts/myProject.js
 
 ## How to test the SDK
 
 ```javascript
-node scripts/test.js
+node scripts/test
 ```

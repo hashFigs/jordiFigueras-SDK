@@ -6,7 +6,7 @@ require('dotenv').config();
     const props = {
         token: process.env.API_TOKEN,
       };
-    const urlApi = process.env.LibLabSDK_API;
+    const urlApi = process.env.LIB_LAB_SDK_API;
 
     let libLabSDK = new LibLabSDK(urlApi, props);
 
